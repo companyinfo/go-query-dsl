@@ -85,7 +85,11 @@ func (qb *Builder) AddSort(value sort.Sort) *Builder {
 
 // AddAggregation adds an aggregation to the query.
 func (qb *Builder) AddAggregation(name string, ag *aggregation.Aggregation) *Builder {
-	qb.Aggregations = map[string]*aggregation.Aggregation{name: ag}
+	if qb.Aggregations == nil {
+		qb.Aggregations = make(map[string]*aggregation.Aggregation)
+	}
+
+	qb.Aggregations[name] = ag
 	return qb
 }
 

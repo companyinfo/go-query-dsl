@@ -1,4 +1,7 @@
 # Go-Query-DSL
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/companyinfo/go-query-dsl.svg)](https://pkg.go.dev/github.com/companyinfo/go-query-dsl)
+
 Go-Query-DSL is a Golang package designed to simplify the process of building queries for OpenSearch and Elasticsearch. This package supports various query types, enabling developers to interact with these search engines more easily and efficiently.
 
 ## Features

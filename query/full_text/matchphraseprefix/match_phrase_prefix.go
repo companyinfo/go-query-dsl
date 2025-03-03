@@ -3,7 +3,7 @@
 // The last term of the provided text is treated as a prefix, matching any words that begin with that term.
 package matchphraseprefix
 
-import "github.com/companyinfo/go-query-dsl/query/full_text/match"
+import "go.companyinfo.dev/go-query-dsl/query/full_text/match"
 
 // MatchPhrasePrefix represents a match phrase prefix query.
 type MatchPhrasePrefix struct {

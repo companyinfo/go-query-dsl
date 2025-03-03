@@ -2,7 +2,7 @@
 // A match_bool_prefix query analyzes its input and constructs a bool query from the terms.
 package matchboolprefix
 
-import "github.com/companyinfo/go-query-dsl/query/full_text/match"
+import "go.companyinfo.dev/go-query-dsl/query/full_text/match"
 
 // MatchBoolPrefix represents a match boolean prefix query.
 type MatchBoolPrefix struct {

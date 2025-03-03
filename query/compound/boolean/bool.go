@@ -1,7 +1,7 @@
 // Package boolean provides structures and functions for building bool queries.
 package boolean
 
-import "github.com/companyinfo/go-query-dsl/query/full_text/match"
+import "go.companyinfo.dev/go-query-dsl/query/full_text/match"
 
 // Bool represents a bool query.
 type Bool struct {

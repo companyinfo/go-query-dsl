@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/companyinfo/go-query-dsl/query/term_level/term"
+	"go.companyinfo.dev/go-query-dsl/query/term_level/term"
 )
 
 type ConstantScoreTestSuite struct {

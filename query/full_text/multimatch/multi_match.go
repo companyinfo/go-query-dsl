@@ -2,7 +2,7 @@
 // The multi_match query builds on the match query to allow multi-field queries
 package multimatch
 
-import "github.com/companyinfo/go-query-dsl/query/full_text/match"
+import "go.companyinfo.dev/go-query-dsl/query/full_text/match"
 
 // QueryType represents the type of multi-match query.
 type QueryType string

@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/companyinfo/go-query-dsl/query/aggregation"
-	"github.com/companyinfo/go-query-dsl/query/sort"
-	"github.com/companyinfo/go-query-dsl/query/suggestion"
+	"go.companyinfo.dev/go-query-dsl/query/aggregation"
+	"go.companyinfo.dev/go-query-dsl/query/sort"
+	"go.companyinfo.dev/go-query-dsl/query/suggestion"
 )
 
 // Builder represents an query builder instance.

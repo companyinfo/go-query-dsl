@@ -2,7 +2,7 @@
 // Returns documents based on a provided query string, using a parser with a limited but fault-tolerant syntax.
 package simplequerystring
 
-import "github.com/companyinfo/go-query-dsl/query/full_text/match"
+import "go.companyinfo.dev/go-query-dsl/query/full_text/match"
 
 // SimpleQueryString represents a simple query string query.
 type SimpleQueryString struct {

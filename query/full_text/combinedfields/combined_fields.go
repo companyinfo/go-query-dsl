@@ -3,7 +3,7 @@
 // their contents had been indexed into one combined field.
 package combinedfields
 
-import "github.com/companyinfo/go-query-dsl/query/full_text/match"
+import "go.companyinfo.dev/go-query-dsl/query/full_text/match"
 
 // CombinedFields represents a combined fields query.
 type CombinedFields struct {

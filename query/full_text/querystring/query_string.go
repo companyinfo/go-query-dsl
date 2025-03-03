@@ -2,7 +2,7 @@
 // Returns documents based on a provided query string, using a parser with a strict syntax.
 package querystring
 
-import "github.com/companyinfo/go-query-dsl/query/full_text/match"
+import "go.companyinfo.dev/go-query-dsl/query/full_text/match"
 
 // QueryString represents a query_string query.
 type QueryString struct {

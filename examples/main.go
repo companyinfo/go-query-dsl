@@ -2,11 +2,11 @@
 package main
 
 import (
-	"github.com/companyinfo/go-query-dsl/query"
-	"github.com/companyinfo/go-query-dsl/query/aggregation"
-	"github.com/companyinfo/go-query-dsl/query/compound/boolean"
-	"github.com/companyinfo/go-query-dsl/query/full_text/match"
-	"github.com/companyinfo/go-query-dsl/query/sort"
+	"go.companyinfo.dev/go-query-dsl/query"
+	"go.companyinfo.dev/go-query-dsl/query/aggregation"
+	"go.companyinfo.dev/go-query-dsl/query/compound/boolean"
+	"go.companyinfo.dev/go-query-dsl/query/full_text/match"
+	"go.companyinfo.dev/go-query-dsl/query/sort"
 )
 
 func main() {

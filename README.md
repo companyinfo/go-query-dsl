@@ -12,11 +12,11 @@ Go-Query-DSL is a Golang package designed to simplify the process of building qu
 ## Installation
 To install Go-Query-DSL, use `go get`:
 ```bash
-go get -u "github.com/companyinfo/go-query-dsl"
+go get -u "go.companyinfo.dev/go-query-dsl"
 ```
 Import the package in your Go code:
 ```bash
-import "github.com/companyinfo/go-query-dsl"
+import "go.companyinfo.dev/go-query-dsl"
 ```
 
 ## Usage

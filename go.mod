@@ -1,4 +1,4 @@
-module github.com/companyinfo/go-query-dsl
+module go.companyinfo.dev/go-query-dsl
 
 go 1.23
 
